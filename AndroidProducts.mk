@@ -15,4 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_titan.mk \
-    $(LOCAL_DIR)/lineage_titan.mk
+    $(LOCAL_DIR)/havoc_titan.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_titan-user \
+    havoc_titan-userdebug \
+    havoc_titan-eng
