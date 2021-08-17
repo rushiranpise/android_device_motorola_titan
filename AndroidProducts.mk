@@ -15,4 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_titan.mk \
-    $(LOCAL_DIR)/lineage_titan.mk
+    $(LOCAL_DIR)/rr_titan.mk
+
+COMMON_LUNCH_CHOICES := \
+    rr_titan-user \
+    rr_titan-userdebug \
+    rr_titan-eng
