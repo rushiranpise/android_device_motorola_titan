@@ -15,9 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_titan.mk \
-    $(LOCAL_DIR)/lineage_titan.mk
+    $(LOCAL_DIR)/aosp_titan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_titan-user \
-    lineage_titan-userdebug \
-    lineage_titan-eng
+    aosp_titan-user \
+    aosp_titan-userdebug \
+    aosp_titan-eng
