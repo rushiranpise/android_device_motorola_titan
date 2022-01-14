@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # inherit from common msm8226-common
--include device/motorola/msm8226-common/BoardConfigCommon.mk
+include device/motorola/msm8226-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/titan
 
@@ -42,4 +42,4 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 560070656
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/motorola/titan/BoardConfigVendor.mk
+include vendor/motorola/titan/BoardConfigVendor.mk
